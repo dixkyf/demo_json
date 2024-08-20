@@ -1,0 +1,160 @@
+{
+   "name":"Enterprise techniques used by 2015 Ukraine Electric Power Attack, ATT&CK campaign C0028 (v1.0)",
+   "versions":{
+      "attack":"14",
+      "navigator":"4.9.1",
+      "layer":"4.5"
+   },
+   "domain":"enterprise-attack",
+   "description":"Techniques used during the 2015 Ukraine Electric Power Attack.",
+   "filters":{
+      "platforms":[
+         "windows"
+      ]
+   },
+   "sorting":0,
+   "layout":{
+      "layout":"flat",
+      "aggregateFunction":"average",
+      "showID":true,
+      "showName":true,
+      "showAggregateScores":false,
+      "countUnscored":false,
+      "expandedSubtechniques":"none"
+   },
+   "hideDisabled":false,
+   "techniques":[
+      {
+         "techniqueID":"T1213",
+         "tactic":"collection",
+         "color":"",
+         "comment":"Data being sold on darknet includes sensitive personal information such as SSN, addresses, and bank details.",
+         "enabled":true,
+         "metadata":[
+            
+         ],
+         "links":[
+            
+         ],
+         "showSubtechniques":false
+      },
+      {
+         "techniqueID":"T1190",
+         "tactic":"initial-access",
+         "color":"",
+         "comment":"SQL injections used to sell database access, indicating exploitation of vulnerabilities in public applications.",
+         "enabled":true,
+         "metadata":[
+            
+         ],
+         "links":[
+            
+         ],
+         "showSubtechniques":false
+      },
+      {
+         "techniqueID":"T1078",
+         "tactic":"defense-evasion,persistence,privilege-escalation,initial-access",
+         "color":"",
+         "comment":"Compromised employee accounts discovered, indicating misuse of valid credentials.",
+         "enabled":true,
+         "metadata":[
+            
+         ],
+         "links":[
+            
+         ],
+         "showSubtechniques":false
+      },
+      {
+         "techniqueID":"T1122",
+         "tactic":"vulnerability",
+         "color":"",
+         "comment":"Multiple entries indicate the use of outdated software versions with known vulnerabilities.",
+         "enabled":true,
+         "metadata":[
+            
+         ],
+         "links":[
+            
+         ],
+         "showSubtechniques":false
+      },
+      {
+         "techniqueID":"T1048",
+         "tactic":"exfiltration",
+         "color":"",
+         "comment":"Use of insecure FTP protocol which can lead to data interception.",
+         "enabled":true,
+         "metadata":[
+            
+         ],
+         "links":[
+            
+         ],
+         "showSubtechniques":false
+      },
+      {
+         "techniqueID":"T1071",
+         "tactic":"command-and-control",
+         "color":"",
+         "comment":"APT victim discovered communicating with C&C centers, indicating ongoing unauthorized control.",
+         "enabled":true,
+         "metadata":[
+            
+         ],
+         "links":[
+            
+         ],
+         "showSubtechniques":false
+      },
+      {
+         "techniqueID":"T1021",
+         "tactic":"lateral-movement",
+         "color":"",
+         "comment":"Publicly available remote services like SSH and WinRM could allow attackers to move laterally in the network.",
+         "enabled":true,
+         "metadata":[
+            
+         ],
+         "links":[
+            
+         ],
+         "showSubtechniques":false
+      },
+      {
+         "techniqueID":"T1189",
+         "tactic":"initial-access",
+         "color":"",
+         "comment":"Detected new referrer sample with potential botnet functionality could be used for initial access via drive-by.",
+         "enabled":true,
+         "metadata":[
+            
+         ],
+         "links":[
+            
+         ],
+         "showSubtechniques":false
+      }
+   ],
+   "gradient":{
+      "colors":[
+         "#ff6666",
+         "#ffe766",
+         "#8ec843"
+      ],
+      "minValue":0,
+      "maxValue":100
+   },
+   "legendItems":[
+      
+   ],
+   "metadata":[
+      
+   ],
+   "links":[
+      
+   ],
+   "showTacticRowBackground":false,
+   "tacticRowBackground":"#dddddd"
+}
